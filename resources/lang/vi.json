@@ -1,0 +1,166 @@
+{
+	"route": {
+		"user": "Người dùng",
+		"UserEdit": "Sửa người dùng",
+		"UserCreate": "Tạo mới người dùng",
+		"UserView": "Chi tiết người dùng",
+		"dashboard": "Trang chủ",
+		"profile": "Thông tin cá nhân",
+		"statistic": "Thống kê",
+		"permission": "Phân quyền",
+		"pagePermission": "Phân quyền trên trang",
+		"directivePermission" : "Phân quyền truy cập",
+		"rolePermission" : "Quản lý quyền"
+
+	},
+  "navbar": {
+    "logOut": "Log Out",
+    "dashboard": "Dashboard",
+    "github": "Github",
+    "screenfull": "Screenfull",
+    "theme": "Theme",
+    "size": "Global Size",
+    "profile": "Thông tin cá nhân"
+  },
+  "login": {
+    "title": "Login Form",
+    "logIn": "Log in",
+    "useroremail": "Username hoặc email",
+    "username": "Username",
+    "password": "Password",
+    "any": "any",
+    "thirdparty": "Or connect with",
+    "thirdpartyTips": "Can not be simulated on local, so please combine you own business simulation! ! !"
+  },
+  "message": {
+    "success": "Cập nhật thành công!",
+    "serverError": "Lỗi hệ thống",
+    "unauthorized": "Bạn không có quyền thực hiện chức năng này"
+  },
+  "documentation": {
+    "documentation": "Documentation",
+    "github": "Github Repository"
+  },
+  "permission": {
+    "roles": "Your roles",
+    "switchRoles": "Switch roles",
+		"addRole" : "Thêm quyền"
+  },
+  "guide": {
+    "description": "The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ",
+    "button": "Show Guide"
+  },
+  "components": {
+    "documentation": "Documentation",
+    "tinymceTips": "Rich text editor is a core part of management system, but at the same time is a place with lots of problems. In the process of selecting rich texts, I also walked a lot of detours. The common rich text editors in the market are basically used, and the finally chose Tinymce. See documentation for more detailed rich text editor comparisons and introductions.",
+    "dropzoneTips": "Because my business has special needs, and has to upload images to qiniu, so instead of a third party, I chose encapsulate it by myself. It is very simple, you can see the detail code in @/components/Dropzone.",
+    "stickyTips": "when the page is scrolled to the preset position will be sticky on the top.",
+    "backToTopTips1": "When the page is scrolled to the specified position, the Back to Top button appears in the lower right corner",
+    "backToTopTips2": "You can customize the style of the button, show / hide, height of appearance, height of the return. If you need a text prompt, you can use element-ui el-tooltip elements externally",
+    "imageUploadTips": "Since I was using only the vue@1 version, and it is not compatible with mockjs at the moment, I modified it myself, and if you are going to use it, it is better to use official version."
+  },
+  "table": {
+    "dynamicTips1": "Fixed header, sorted by header order",
+    "dynamicTips2": "Not fixed header, sorted by click order",
+    "dragTips1": "The default order",
+    "dragTips2": "The after dragging order",
+    "title": "Title",
+    "importance": "Imp",
+    "type": "Type",
+    "remark": "Remark",
+    "search": "Tìm kiếm",
+    "add": "Add",
+    "export": "Export",
+    "reviewer": "reviewer",
+    "id": "ID",
+    "date": "Date",
+    "author": "Author",
+    "readings": "Readings",
+    "status": "Status",
+    "actions": "Actions",
+    "edit": "Edit",
+    "publish": "Publish",
+    "draft": "Draft",
+    "delete": "Xoá",
+    "cancel": "Huỷ",
+    "confirm": "Xác nhận",
+    "warning": "Cẩn thận",
+    "info": "Hiển thị từ kết quả {from} đến {to} trên tổng số {total} kết quả",
+    "noData": "Không có kết quả nào",
+    "confirmDelete": "Bạn có chắc chắn xoá không?"
+  },
+  "errorLog": {
+    "tips": "Please click the bug icon in the upper right corner",
+    "description": "Now the management system are basically the form of the spa, it enhances the user experience, but it also increases the possibility of page problems, a small negligence may lead to the entire page deadlock. Fortunately Vue provides a way to catch handling exceptions, where you can handle errors or report exceptions.",
+    "documentation": "Document introduction"
+  },
+  "excel": {
+    "export": "Export",
+    "selectedExport": "Export Selected Items",
+    "placeholder": "Please enter the file name(default excel-list)"
+  },
+  "zip": {
+    "export": "Export",
+    "placeholder": "Please enter the file name(default file)"
+  },
+  "theme": {
+    "change": "Change Theme",
+    "documentation": "Theme documentation",
+    "tips": "Tips: It is different from the theme-pick on the navbar is two different skinning methods, each with different application scenarios. Refer to the documentation for details."
+  },
+  "tagsView": {
+    "refresh": "Refresh",
+    "close": "Close",
+    "closeOthers": "Close Others",
+    "closeAll": "Close All"
+  },
+  "user": {
+    "id": "ID",
+    "name": "Tên",
+    "full_name": "Tên đầy đủ",
+    "email": "Email",
+    "password": "Password",
+    "role": "Chức vụ",
+    "placeholder_name": "Nguyen Van A",
+    "placeholder_email": "admin@example.com",
+    "password_confirmation": "Nhập lại password",
+    "actionHistory": "Lịch sử hoạt động",
+    "created_at": "Thời gian tạo",
+    "updated_at": "Thời gian sửa",
+    "deleted_at": "Thời gian xóa"
+  },
+  "region": {
+    "id": "ID",
+    "parent_id": "ID khu vực",
+    "code": "Mã",
+    "name": "Tên Khu Vực",
+    "type": "Kiểu",
+    "created_at": "Ngày Tạo",
+    "updated_at": "Ngày Sửa",
+    "deleted_at": "Ngày Xóa"
+  },
+	"users": {
+		"tableName": "Tài khoản",
+		"id": "ID",
+		"username": "Tên tài khoản",
+		"full_name": "Tên đầy đủ",
+		"email": "Email",
+		"password": "Mật khẩu",
+		"current_password": "Mật khẩu hiện tại",
+		"new_password": "Mật khẩu mới",
+		"role": "Chức vụ",
+		"phone": "Số điện thoại",
+		"address": "Địa chỉ",
+		"placeholder_name": "Nguyen Van A",
+		"placeholder_email": "admin@example.com",
+		"placeholder_username": "admin",
+		"password_confirmation": "Nhập lại mật khẩu",
+		"actionHistory": "Lịch sử hoạt động",
+		"dna_center_id": "Trung tâm giám định ADN",
+		"selectingDnaCenter": "Chọn trung tâm giám định ADN",
+		"created_at": "Thời gian tạo",
+		"updated_at": "Thời gian sửa",
+		"deleted_at": "Thời gian xóa",
+		"update": "Sửa"
+	}
+}
